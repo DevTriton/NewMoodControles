@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+body {
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: auto;
+    object-fit: contain;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.300);
+    width: auto;
+    height: 80px;
+}
+
+.nav-list {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+.nav-list li {
+    padding: 20px;
+    display: inline;
+}
+
+.nav-list a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.logo{
+    width: 178px;
+    height: auto;
+    margin: 1px 1px;
+}
+
+.img-carrinho{
+    width: 35px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}

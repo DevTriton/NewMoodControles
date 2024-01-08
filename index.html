@@ -1,25 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <title>Mood Controles</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="index.html"><img src="assets/logo.png" alt="" class="logo"></a>
-            <ul class="nav-list">
-                <li><a href="xbox.html">Xbox</a></li>
-                <li><a href="playstation.html">Playstation</a></li>
-                <li><a href="acsssorios.html">Acessórios</a></li>
-                <li><a href="contato.html">Fale Conosco</a></li>
-            </ul>
-            <a href="carrinho.html"><img src="assets/icones sites/carrinho.png" alt="carrinho" class="img-carrinho"></a>
-        </nav>
-    </header>
-
-</body>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <title>Mood Controles</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="assets/logo.png" alt="" class="logo"/></a>
+                <ul class="nav-list">
+                    <li><a href="xbox.html">Xbox</a></li>
+                    <li><a href="playstation.html">Playstation</a></li>
+                    <li><a href="acsssorios.html">Acessórios</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                </ul>
+                <a href="carrinho.html"><img src="assets/icones sites/carrinho.png" alt="carrinho" class="img-carrinho"/></a>
+            </nav>
+        </header>
+        <main>
+            <div class="slider">
+                <div class="slides">
+                    <!--Radio buttons-->
+                    <input type="radio" name="radio-btn" id="radio1" />
+                    <input type="radio" name="radio-btn" id="radio2" />
+                    <input type="radio" name="radio-btn" id="radio3" />
+                    <input type="radio" name="radio-btn" id="radio4" />
+                    <!--Fim radio Buttons-->
+                    <!--Slide Images-->
+                    <div class="slide first">
+                        <img src="assets/controles/ps4flash.png" alt="imagem 1" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/controles/ps4raptor.png" alt="imagem 2"/>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/controles/xbxmine.png" alt="imagem 3"/>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/controles/xbxcrime.png" alt="imagem 4"/>
+                    </div>
+                    <!--Fim slide images-->
+                    <!--Navigation Auto-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+            <script src="javaScript/script.js"></script>
+        </main>
+    </body>
 </html>

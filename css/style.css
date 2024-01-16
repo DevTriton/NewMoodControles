@@ -40,6 +40,7 @@ nav {
     font-family: "Inter";
     font-weight: 400;
     font-size: 18px;
+    text-shadow: black -2px 2px 3px;
 }
 
 .logo {
@@ -52,7 +53,7 @@ nav {
     width: 35px;
     position: absolute;
     right: 20px;
-    top: 25px;
+    top: 20px;
 }
 
 .slider {
@@ -185,6 +186,7 @@ nav {
     top: 450px;
     left: 125px;
     width: 400px;
+    text-shadow: black -2px 2px 3px;
 }
 
 .posicao {

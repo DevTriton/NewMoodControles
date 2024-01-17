@@ -163,9 +163,10 @@ nav {
 
 .banner{
     background-color: rgba(0, 0, 0, 0.3);
-    width: auto;
+    width: 1400px;
     height: 500px;
-    margin: 100px;
+    margin: 50px;
+    border-radius: 40px 40px;
 }
 
 .logo-banner{
@@ -193,4 +194,66 @@ nav {
     position: absolute;
     right: 110px;
     top: 200px;
+}
+
+.features {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 1300px;
+    height: 700px;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 40px 40px;
+}
+
+.img-features{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 280px;
+    left: 120px;
+}
+
+.h1-features {
+    font-size: 30px;
+    font-family: "Inter";
+    color: white; 
+    text-decoration: none;
+    text-shadow: black -2px 2px 3px;
+    position: relative;
+    top: 40px;
+    left: 300px;
+}
+
+.p-features{
+    display: inline;
+    text-decoration: none;
+    font-family: "Inter";
+    color: white;
+    text-shadow: black -2px 2px 3px;
+    font-size: 15px;
+}
+
+.h2-features{
+    color: white;
+    font-family: "Inter";
+    text-shadow: black -2px 2px 3px;
+    font-size: 20px;   
+}
+
+.titulo-features {
+    display: flex;
+}
+
+.textos-features {
+    width: 500px;
+    position: relative;
+    top: -120px;
+    left: 700px;
+}
+
+.linha {
+    height: 15px;
+    border-color: transparent;
 }

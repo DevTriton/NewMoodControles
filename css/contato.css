@@ -60,27 +60,6 @@ nav {
     top: 20px;
 }
 
-.content{
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 90%;
-    height: 400px;
-    position: relative;
-    left: 5%;
-    top: 40%;
-    margin-top: 143px;
-    margin-bottom: 143px;
-}
-
-.content-images{
-    display: table;
-    padding-bottom: 15px;
-    width: 40px;
-    height: auto;
-    position: relative;
-    left: 40px;
-    top: 80px;
-}
-
 .redes {
     background-color: rgba(0, 0, 0, 0.3);
     width: auto;
@@ -89,6 +68,7 @@ nav {
 
 .imagens-redes img{
     position: relative;
+    top: 40px;
     left: 40px;
     width: 30px;
     padding: 10px;
@@ -126,4 +106,50 @@ nav {
     text-shadow: -2px 2px 3px black;
     font-family: "Inter";
     margin-right: 10px;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 550px;
+    position: relative;
+    left: 5%;
+    top: 40%;
+    margin-top: 143px;
+    margin-bottom: 143px;
+    border-radius: 40px 40px;
+}
+
+.content-images{
+    display: table;
+    padding-bottom: 25px;
+    width: 40px;
+    height: auto;
+    position: relative;
+    left: 60px;
+    top: 95px;
+}
+
+.content-text{
+    color: white;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    text-shadow: black -2px 2px 3px;
+    position: relative;
+    left: 140px;
+    top: 45px;
+}
+
+.titulo{
+    color: white;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: black -2px 2px 3px;
+    position: relative;
+    left: 45%;
+    top: 25px;
 }
